@@ -1,0 +1,113 @@
+{
+  "products": {
+    "valorant": {
+      "image": "/assets/products/valorant.webp",
+      "imageHd": "/assets/products/valorant-hd.webp",
+      "imageSet": "/assets/products/valorant.webp 540w, /assets/products/valorant-hd.webp 1086w"
+    },
+    "free-fire": {
+      "image": "/assets/products/free-fire.webp",
+      "imageHd": "/assets/products/free-fire-hd.webp",
+      "imageSet": "/assets/products/free-fire.webp 540w, /assets/products/free-fire-hd.webp 1087w"
+    },
+    "pubg": {
+      "image": "/assets/products/pubg.webp",
+      "imageHd": "/assets/products/pubg-hd.webp",
+      "imageSet": "/assets/products/pubg.webp 540w, /assets/products/pubg-hd.webp 1086w"
+    },
+    "mobile-legends": {
+      "image": "/assets/products/mobile-legends.webp",
+      "imageHd": "/assets/products/mobile-legends-hd.webp",
+      "imageSet": "/assets/products/mobile-legends.webp 540w, /assets/products/mobile-legends-hd.webp 1086w"
+    },
+    "lords-mobile": {
+      "image": "/assets/products/lords-mobile.webp",
+      "imageHd": "/assets/products/lords-mobile-hd.webp",
+      "imageSet": "/assets/products/lords-mobile.webp 540w, /assets/products/lords-mobile-hd.webp 896w"
+    },
+    "yalla-ludo": {
+      "image": "/assets/products/yalla-ludo.webp",
+      "imageHd": "/assets/products/yalla-ludo-hd.webp",
+      "imageSet": "/assets/products/yalla-ludo.webp 540w, /assets/products/yalla-ludo-hd.webp 1086w"
+    },
+    "call-of-duty": {
+      "image": "/assets/products/call-of-duty.webp",
+      "imageHd": "/assets/products/call-of-duty-hd.webp",
+      "imageSet": "/assets/products/call-of-duty.webp 540w, /assets/products/call-of-duty-hd.webp 1086w"
+    },
+    "roblox": {
+      "image": "/assets/products/roblox.webp",
+      "imageHd": "/assets/products/roblox-hd.webp",
+      "imageSet": "/assets/products/roblox.webp 540w, /assets/products/roblox-hd.webp 1024w"
+    }
+  },
+  "brands": {},
+  "hero": {
+    "valorant": {
+      "art": "/assets/hero/valorant.webp",
+      "small": "/assets/hero/valorant-1080.webp",
+      "width": 1086,
+      "photo": true,
+      "ready": true
+    },
+    "free-fire": {
+      "art": "/assets/hero/free-fire.webp",
+      "small": "/assets/hero/free-fire-1080.webp",
+      "width": 1086,
+      "photo": true,
+      "ready": true
+    },
+    "pubg": {
+      "art": "/assets/hero/pubg.webp",
+      "small": "/assets/hero/pubg-1080.webp",
+      "width": 1086,
+      "photo": true,
+      "ready": true
+    },
+    "mobile-legends": {
+      "art": "/assets/hero/mobile-legends.webp",
+      "small": "/assets/hero/mobile-legends-1080.webp",
+      "width": 1086,
+      "photo": true,
+      "ready": true
+    },
+    "fortnite": {
+      "art": "/assets/hero/fortnite.webp",
+      "small": "/assets/hero/fortnite-1080.webp",
+      "width": 2160,
+      "photo": false
+    },
+    "genshin-impact": {
+      "art": "/assets/hero/genshin-impact.webp",
+      "small": "/assets/hero/genshin-impact-1080.webp",
+      "width": 2160,
+      "photo": false
+    },
+    "lords-mobile": {
+      "art": "/assets/hero/lords-mobile.webp",
+      "small": "/assets/hero/lords-mobile-1080.webp",
+      "width": 896,
+      "photo": true
+    },
+    "yalla-ludo": {
+      "art": "/assets/hero/yalla-ludo.webp",
+      "small": "/assets/hero/yalla-ludo-1080.webp",
+      "width": 1086,
+      "photo": true
+    },
+    "call-of-duty": {
+      "art": "/assets/hero/call-of-duty.webp",
+      "small": "/assets/hero/call-of-duty-1080.webp",
+      "width": 1086,
+      "photo": true,
+      "ready": true
+    },
+    "roblox": {
+      "art": "/assets/hero/roblox.webp",
+      "small": "/assets/hero/roblox-1080.webp",
+      "width": 1024,
+      "photo": true
+    }
+  },
+  "avatars": {}
+}
