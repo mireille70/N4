@@ -3,7 +3,10 @@ import { createBrowserRouter, createHashRouter, RouterProvider, Outlet } from 'r
 
 // the single-file build (npm run build:single) is opened straight from disk, where only
 // hash URLs (index.html#/categories) can address pages
-const createRouter = import.meta.env.MODE === 'single' ? createHashRouter : createBrowserRouter;
+const createRouter: typeof createBrowserRouter = import.meta.env.MODE === 'single'
+  ? createHashRouter
+  // served from a sub-path on GitHub Pages (vite `base`), e.g. /N4/categories
+  : (routes) => createBrowserRouter(routes, { basename: import.meta.env.BASE_URL.replace(/\/$/, '') || '/' });
 import { Layout, Toaster } from '@/components/layout/Layout';
 import HomePage from '@/pages/HomePage';
 import CatalogPage from '@/pages/CatalogPage';
