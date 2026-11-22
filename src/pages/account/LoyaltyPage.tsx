@@ -151,7 +151,7 @@ function EarnRow({ way, index }: { way: (typeof EARN_WAYS)[number]; index: numbe
   const [claimed, setClaimed] = useState(false);
   const action = () => {
     if (way.id === 'daily') { if (!claimed) { setClaimed(true); notify(`+${way.points} نقاط — رجعت بكرة عشان تكمل السلسلة (تجريبي)`); } return; }
-    if (way.id === 'invite') { navigator.clipboard?.writeText(`${location.origin}/register?ref=KOON`).catch(() => {}); notify('تم نسخ رابط الدعوة (تجريبي)'); return; }
+    if (way.id === 'invite') { navigator.clipboard?.writeText(import.meta.env.MODE === 'single' ? `${location.href.split('#')[0]}#/register?ref=KOON` : `${location.origin}${import.meta.env.BASE_URL.replace(/\/$/, '')}/register?ref=KOON`).catch(() => {}); notify('تم نسخ رابط الدعوة (تجريبي)'); return; }
     notify('عرض تجريبي');
   };
   const pal = EARN_PALETTE[index % EARN_PALETTE.length];
